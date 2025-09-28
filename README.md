@@ -4,7 +4,14 @@ Simple test coding with fastAPI.
 Using local service Inventree REST API for testing.
 
 Start backend
-> uvicorn.exe src.main:app --reload
+```bash 
+uvicorn.exe src.main:app --reload
+```
+
+FastAPI UI
+```bash
+http://127.0.0.1:8000/docs
+```
 
 Workflow:
 - init fastAPI
